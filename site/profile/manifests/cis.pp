@@ -1,6 +1,6 @@
 #Puppet profile to apply cis benchmarks
 #for demo purposes
-
+class profile::cis {
 $exec_controls = {
   'rule_1_1_1_1'  => true,
   'rule_1_1_1_2'  => true,
@@ -121,4 +121,5 @@ $exec_controls = {
 class{ '::cis_benchmarks':
   cis_version   => 'v_2_1_1',
   exec_controls => $exec_controls,
+}
 }
