@@ -15,3 +15,12 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'puppetlabs-stdlib', '5.0.0'
+mod 'herculesteam-augeasproviders_core', '2.1.5'
+mod 'herculesteam-augeasproviders_pam', '2.1.1'
+mod 'fiddyspence-sysctl', '1.1.0'
+mod 'puppetlabs-concat', '5.0.0'
+mod 'kemra102-auditd', '2.2.0'
+mod 'abuxton-cis_benchmarks',
+    :git => 'https://github.com/raj-andy1/cis_benchmarks'
