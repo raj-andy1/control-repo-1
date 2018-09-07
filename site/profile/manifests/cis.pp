@@ -1,4 +1,5 @@
 #Puppet profile to apply cis benchmarks
+#for demo purposes
 
 $exec_controls = {
   'rule_1_1_1_1'  => true,
@@ -15,7 +16,7 @@ $exec_controls = {
   'rule_1_1_13'   => true,
   'rule_1_1_15'   => true,
   'rule_1_1_18'   => true,
-  'rule_1_1_21'   => true,
+  'rule_1_1_21'   => true,s
   'rule_1_1_22'   => true,
   'rule_1_2_2'    => true,
   'rule_1_2_3'    => true,
