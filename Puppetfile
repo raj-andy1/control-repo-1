@@ -24,3 +24,5 @@ mod 'puppetlabs-concat', '5.0.0'
 mod 'kemra102-auditd', '2.2.0'
 mod 'abuxton-cis_benchmarks',
     :git => 'https://github.com/raj-andy1/cis_benchmarks'
+mod 'pe_report2snow',
+    :git => 'https://github.com/dan-wittenberg/pe_report2snow.git'
