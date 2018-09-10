@@ -26,3 +26,4 @@ mod 'abuxton-cis_benchmarks',
     :git => 'https://github.com/raj-andy1/cis_benchmarks'
 mod 'pe_report2snow',
     :git => 'https://github.com/dan-wittenberg/pe_report2snow.git'
+mod 'puppetlabs-puppetserver_gem', '1.0.0'
